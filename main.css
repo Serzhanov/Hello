@@ -83,15 +83,22 @@
     margin-top: 80px;
     margin-left: 50px;
 }
-td {
+td{
     padding: 0 15px;
     border: 1px solid black;
     border-collapse: collapse;
+
  }
 th{
     border: 1px solid black;
     border-collapse: collapse;
  }
+
+
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 .Contact{
     margin-top: 80px;
     margin-left: 50px;
