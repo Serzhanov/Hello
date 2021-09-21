@@ -5,12 +5,12 @@
     text-decoration: none;
 }
 
-.header_xhtml{
+.header{
     width: 100vw;
     height: 100px;
     border-bottom: solid 1px rgba(16, 16, 16, 0.1);
     font-family: 'Poppins';
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 .inner{
@@ -33,19 +33,17 @@
 
 
 .liste{
+    margin-top: 20px;
     float: right;
     height: 100%;
 }
 
 .liste li{
-    display: table;
-    height: 100%;
     float: left;
     margin-right: 30px;
+    
 }
-.liste li:last-of-type{
-    margin-right: 0;
-}
+
 
 .liste span {
     display: table-cell;
@@ -53,7 +51,42 @@
 }
 
 .liste a{
-    color: #101010;
+    color: darkslateblue;;
+}
+.liste a:hover{
+    color: orangered;;
 }
 
-
+.About img{
+    border-radius: 50px;;
+    width: 500px;
+    height: 600px;
+    float: right;
+    clear:both;
+    margin-right: 50px;
+    
+}
+.intr{
+    margin-top:50px;
+    margin-left: 50px;
+}
+.intr p{
+    margin-top: 60px; 
+    font-family: 'Times New Roman', Times, cursive;
+    font-size: 1.2em;
+}
+.knowledges dl{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1.2em;
+}
+.edu{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+td {
+    padding: 0 15px;
+ }
+.Contact{
+    margin-top: 80px;
+    margin-left: 50px;
+}
