@@ -7,10 +7,16 @@
 
 .header{
     width: 100vw;
-    height: 100px;
+    height: 1000px;
     border-bottom: solid 1px rgba(16, 16, 16, 0.1);
     font-family: 'Poppins';
     font-size: 1.2em;
+    top: 0;
+    background-image: url("im1.1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .inner{
@@ -29,13 +35,22 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    
 }
-
+.myself h1{
+    color :white;
+    font-family: 'Bradley Hand', cursive;
+    
+}
 
 .liste{
     margin-top: 20px;
-    float: right;
+    float:right;
+    margin-right:0px;
     height: 100%;
+    left: 50%;
+    position: sticky;
+    
 }
 
 .liste li{
@@ -51,19 +66,24 @@
 }
 
 .liste a{
-    color: darkslateblue;;
+    color: whitesmoke;
+    font-size: 1.5em;
 }
 .liste a:hover{
     color: orangered;;
 }
 
 .About img{
-    border-radius: 50px;;
+    border-radius: 50px;
     width: 500px;
     height: 600px;
-    float: right;
     clear:both;
     margin-right: 50px;
+    
+}
+.intr h1{
+    text-align: center;
+    margin: 0px auto;
     
 }
 .intr{
@@ -83,6 +103,11 @@
     margin-top: 80px;
     margin-left: 50px;
 }
+.edu h1{
+    text-align: center;
+    margin: 0px auto;
+    
+}
 td{
     padding: 0 15px;
     border: 1px solid black;
@@ -94,10 +119,149 @@ th{
     border-collapse: collapse;
  }
 
-body{
 
+.Contact .phrase{
+    padding-top: 100px;
+    text-align :center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:2.5em;
 }
-.Contact{
-    margin-top: 80px;
-    margin-left: 50px;
+.Contact p{
+    text-align :center;
+    color:dimgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
 }
+
+.Contact h1{
+    text-align: center;
+    margin: 0px auto;
+    
+}
+.Sys h1{
+    text-align: center;
+    margin: 0px auto;
+    background-color:black;
+    font-size: 1.2em;
+    background-image: url("sky.jpg");
+    background-size: 1000px;
+}
+.Sys a:hover{
+    color:aquamarine;
+}
+.Sys{
+    text-align: center;
+    margin: 0px auto;
+    background-color:black;
+    color:white;
+    font-size: 1.6em;
+    background-image: url("sky.jpg");
+    background-size: 1000px;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .prev {
+    right: 960px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .icons li{
+    
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    
+  }
+  .icons{
+      padding-left: 440px;
+  }
