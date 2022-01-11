@@ -306,7 +306,7 @@ th{
     
   }
   .icons img{
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
     height: 100px;
     width: 100px;
   }
