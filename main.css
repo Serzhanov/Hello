@@ -4,7 +4,10 @@
     list-style: none;
     text-decoration: none;
 }
-
+h1{
+  text-align: center;
+  margin: 0px auto;
+}
 .header{
     width: auto;
     height: 1000px;
@@ -79,6 +82,20 @@
 .About{
   padding-top: 50px;
 }
+
+.Projects_class{
+  padding-top:150px;
+  background-image: url(Photos/background_mnist.png);
+  background-size: 1000px;
+  margin: 0px auto;
+  background-attachment: fixed;
+  width:100%;
+  height: 700px;
+}
+#Projects{
+  text-align: center;
+}
+
 
 .About p.introducing{
   font-size: 1.4em;
@@ -207,9 +224,7 @@ th{
   }
   
   /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+ 
   .prev {
     right: 960px;
     border-radius: 3px 0 0 3px;
@@ -318,3 +333,54 @@ th{
     width: 120px;
     transform: rotate(360deg);
   }
+
+  .slideshow-container_for_projects{
+    max-width: 1000px;
+    padding-left: 200px;
+   
+  }
+  .slideshow-container_for_projects img{
+    padding:1px;
+    border:5px solid black;
+    background-color:silver;
+  }
+  .slideshow-container_for_projects P{
+    color: gold;
+    }
+  #s{
+    background:black;
+    position: absolute;
+    right: 100px;
+    width: 500px;
+    height: 450px;
+  }
+  #s p{
+    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    line-height: 26px;
+    text-align: center;
+    
+}
+#s a:hover{
+  color: orangered;
+  font-size: 1.7em;
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color:black;
+  line-height: 100px;
+}
+    
