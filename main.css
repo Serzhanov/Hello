@@ -8,6 +8,7 @@ h1{
   text-align: center;
   margin: 0px auto;
 }
+
 .header{
     width: auto;
     height: 1000px;
@@ -21,6 +22,7 @@ h1{
     background-attachment: fixed;
     background-size: cover  ;
 }
+
 
 .inner{
     width: 1300px;
@@ -226,7 +228,7 @@ th{
   /* Hide the images by default */
  
   .prev {
-    right: 960px;
+    right: 966.5px;
     border-radius: 3px 0 0 3px;
   }
 
@@ -383,4 +385,40 @@ h2{
   color:black;
   line-height: 100px;
 }
+@media only screen and (max-width: 500px) {
+  .header{
+    background-size: cover;
+    width: 500px;
+    background-image: url("Photos/myself.jpg");
+    height: 1000px;
+  }
+  .liste{
     
+    float:left;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+  }
+  .liste li{
+    float: none;
+    margin-left:-300px;
+  }
+  .liste a{
+    padding: 0.5rem;
+    transition: all 0.5s ease-out;
+    color: whitesmoke;
+    font-size: 1.1em;
+    float:left;
+    display:block;
+    text-align: left;
+  }
+  .inner{
+    width: 700px;
+    height: 100%;
+    display: block;
+    
+  }
+  .liste a:hover{
+    color: orangered;
+    font-size: 1.2em;
+}
+}
