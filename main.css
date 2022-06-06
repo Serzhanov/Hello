@@ -148,29 +148,11 @@ h1{
     color:beige;
     
 }
-.edu h1{
-    text-align: center;
-    margin: 0px auto;
-    
-}
-.edu .tab{
-  margin-left: auto;
-  margin-right: auto;
-}
 
-td{
-    padding: 0 15px;
-    border: 1px solid red;
-    border-collapse: collapse;
 
- }
 .space{
   margin-top: 100px;
 }
-th{
-    border: 1px solid red;
-    border-collapse: collapse;
- }
 
 
 .Contact .phrase{
@@ -215,7 +197,7 @@ th{
     color:white;
     font-size: 1.6em;
     background-image: url("Photos/sky.jpg");
-    background-size: 1000px;
+    background-size: 1500px;
     
 }
 .slideshow-container {
@@ -365,6 +347,10 @@ th{
     text-align: center;
     
 }
+
+
+
+
 #s a:hover{
   color: orangered;
   font-size: 1.7em;
@@ -421,4 +407,71 @@ h2{
     color: orangered;
     font-size: 1.2em;
 }
+}
+
+
+.styled-table {
+  background-color: white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  column-rule: solid 3px;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #009879;
+}
+
+.styled-table tbody tr{
+  color :black
+}
+
+.styled-table tbody tr{
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.AI-SELF-drCars{
+  background-image: url("ProjectPhotos/machines.jpg");
+  background-size: 1550px;
+}
+
+
+#textCar{
+  position: absolute;
+  background-color: rgba(255,255,255,0.5);
+  right: 100px;
+  width: 500px;
+  height: 450px;
+  
+}
+#textCar p{
+  font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  line-height: 26px;
+  text-align: center;
+  
 }

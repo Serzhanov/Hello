@@ -5,7 +5,6 @@ var slideIndex = 0;
 carousel_MNIST();
 function carousel_MNIST(){
   var i;
-  var current_name="Mnist";
   //We will add more projects via another variables
   var x = document.getElementsByClassName("Mnist");
   for (i = 0; i < x.length; i++) {
