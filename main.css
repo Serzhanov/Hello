@@ -330,15 +330,16 @@ h1{
   }
   .slideshow-container_for_projects P{
     color: gold;
-    }
-  #s{
+  }
+
+  #description{
     background:black;
     position: absolute;
     right: 100px;
     width: 500px;
     height: 450px;
   }
-  #s p{
+  #description p{
     font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
     font-weight: 300;
     font-size: 15px;
@@ -371,6 +372,7 @@ h2{
   color:black;
   line-height: 100px;
 }
+
 @media only screen and (max-width: 500px) {
   .header{
     background-size: cover;
@@ -406,7 +408,61 @@ h2{
   .liste a:hover{
     color: orangered;
     font-size: 1.2em;
+  }
+
+
+#textCar{
+  position: absolute;
+  background-color: rgba(255,255,255,0.5);
+  width: 500px;
+  height: 450px;
+  left:5px;
+
 }
+.slideshow-container_for_projects{
+
+  max-width: 1000px;
+  top:150px;
+  right:200px;
+  margin-bottom: 200px;
+}
+
+.scripting{
+  position: relative;
+  right: 120px;
+  top:420px
+}
+
+#description{
+  margin-left:500px;
+  margin-right:-100px
+}
+
+.icons li{
+    
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  
+}
+.icons img{
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  height: 100px;
+  width: 100px;
+}
+.icons{
+    padding-left: 440px;
+    position: relative;
+    right:260px
+}
+.icons a:hover img{
+  height: 120px;
+  width: 120px;
+  transform: rotate(360deg);
+}
+
+
 }
 
 
